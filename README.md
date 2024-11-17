@@ -1,1 +1,25 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/JRWw4q8L)
+Forex Converter API Documentation
+
+Overview
+The Forex Converter API provides real-time currency conversion using current exchange rates. It supports multiple currency pairs and provides accurate conversion results using the ExchangeRate API as its data source.
+
+Base URL
+{CodeSpace_url}/forex_converter
+
+Endpoint
+GET /convert
+
+
+Sample Request HTTP: 
+{CodeSpace_url}/forex_converter/convert?from=USD&to=CNY&amount=100
+
+
+Success Response:
+{
+    "from": "USD",
+    "to": "CNY",
+    "amount": 100.0,
+    "result": 723.63,
+    "rate": 7.2363,
+    "baseUrl": "http://localhost:8080/forex_converter"
+}
