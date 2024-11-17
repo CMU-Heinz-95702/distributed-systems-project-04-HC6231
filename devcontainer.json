@@ -3,12 +3,5 @@
         "dockerfile": "Dockerfile"
     },
     "forwardPorts": [8080],
-    "postCreateCommand": "",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "vscjava.vscode-java-pack"
-            ]
-        }
-    }
+    "postCreateCommand": "catalina.sh run"
 }
