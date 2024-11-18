@@ -13,6 +13,7 @@ Endpoint
 GET /convert
 
 Sample Request HTTP: 
+Change the url in Android if you want to test out the code in the mobile app
 https://expert-fiesta-7p574qgrj7wcx6j7-8080.app.github.dev/convert?from=USD&to=EUR&amount=22
 
 Monitor
