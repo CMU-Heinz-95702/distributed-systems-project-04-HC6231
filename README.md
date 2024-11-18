@@ -16,10 +16,6 @@ Sample Request HTTP:
 Change the url in Android if you want to test out the code in the mobile app
 {https://expert-fiesta-7p574qgrj7wcx6j7-8080.app.github.dev}/convert?from=USD&to=EUR&amount=22
 
-Monitor
-
-**Remeber to set visibility to "PUBLIC"**
-
 Success Response:
 {
     "from":"USD",
@@ -28,3 +24,9 @@ Success Response:
     "result":20.875799999999998,
     "rate":0.9489
 }
+
+
+Monitor
+
+**Remeber to set visibility to "PUBLIC"**
+
