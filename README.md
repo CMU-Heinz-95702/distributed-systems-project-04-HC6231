@@ -13,6 +13,8 @@ GET /convert
 Sample Request HTTP: 
 {CodeSpace_url}/forex_converter/convert?from=USD&to=CNY&amount=100
 
+**Remeber to set visibility to "PUBLIC"**
+
 
 Success Response:
 {
