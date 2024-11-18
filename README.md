@@ -26,7 +26,7 @@ Success Response:
 }
 
 
-Monitor
+Click view monitor when {CodeSpace_url} is opened in your browser
 
 **Remeber to set visibility to "PUBLIC"**
 
